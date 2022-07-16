@@ -1,0 +1,9 @@
+.header__logo {
+  margin: 0;
+  padding: 0;
+  max-width: 176px;
+  min-width: 142px;
+  width: 33%;
+  object-fit: contain;
+
+}
