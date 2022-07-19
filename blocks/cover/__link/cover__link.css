@@ -1,0 +1,54 @@
+.cover__link {
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 0;
+}
+
+.cover__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opacity 1s ease;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+}
+
+
+@media screen and (min-width: 768px) {
+  .cover__link {
+    min-height: 480px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .cover__link {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__link {
+    min-height: 740px;
+  }
+}
+

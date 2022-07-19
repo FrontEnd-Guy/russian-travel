@@ -1,5 +1,12 @@
 .intro__title {
   font-size: clamp(32px, 10vw, 54px);
-  line-height: 1.07;
   font-weight: 900;
+  line-height: 1.09;
+  margin: 0;
+}
+
+@media  and (min-width: 768px) {
+  .intro__title {
+    line-height: 1.07;
+  }
 }

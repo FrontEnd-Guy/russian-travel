@@ -1,0 +1,16 @@
+.cover__title {
+  font-size: clamp(32px, 10vw, 72px);
+  line-height: 1.09;
+  font-weight: 900;
+  text-align: center;
+  white-space: pre-line;
+  margin: 0 auto 16px;
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__title {
+    line-height: 1.06;
+    margin-bottom: 32px;
+  }
+}

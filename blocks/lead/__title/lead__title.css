@@ -1,21 +1,15 @@
-/* 1280, 1024, 768 */
 .lead__title {
-  white-space: pre-line;
-  text-align: center;
   font-size: clamp(40px, 12.5vw, 96px);
+  line-height: 1.1;
   font-weight: 900;
-  line-height: 1.04;
-  max-width: 720px;
-  min-width: 288px;
-  width: 100%;
-  margin: 0 auto 32px;
-  padding: 0;
+  text-align: center;
+  margin: 0 auto 16px;
+  white-space: pre-line;
 }
 
-/* 425 */
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 768px) {
   .lead__title {
-    line-height: 1.1;
-    margin-bottom: 16px;
+    line-height: 1.04;
+    margin-bottom: 32px;
   }
 }

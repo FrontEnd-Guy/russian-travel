@@ -1,8 +1,21 @@
 .lead {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  min-width: 320px;
+  max-width: 984px;
   margin: 0 auto;
-  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead {
+    width: calc(100% - 2*48px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    width: calc(100% - 2*148px);
+  }
 }
