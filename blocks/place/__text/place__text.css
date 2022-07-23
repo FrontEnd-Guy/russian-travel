@@ -5,10 +5,25 @@
   display: flex;
   flex-direction: column;
   gap: 25px;
+  box-sizing: border-box;
 }
+
 
 @media screen and (min-width: 768px) {
   .place__text {
-    width: 100%;
+    margin: 0;
+    min-width: 352px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place__text {
+    min-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__text {
+    min-width: 484px;
   }
 }

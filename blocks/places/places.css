@@ -6,13 +6,14 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {
   .places {
     width: calc(100% - 2*24px);
-    padding: 88px 0 90px;
-    gap: 73px;
+    padding: 92px 0;
+    gap: 70px;
   }
 }
 

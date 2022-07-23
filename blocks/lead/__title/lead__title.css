@@ -4,7 +4,8 @@
   font-weight: 900;
   text-align: center;
   margin: 0 auto 16px;
-  white-space: pre-line;
+  min-width: 288px;
+  max-width: 720px;
 }
 
 @media screen and (min-width: 768px) {

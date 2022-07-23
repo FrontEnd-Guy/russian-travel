@@ -5,11 +5,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: calc(100%*2/3);
   min-height: 200px;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(../../../images/cover-trains.jpg) center/cover no-repeat;
   box-sizing: border-box;
   position: relative;
   z-index: 0;

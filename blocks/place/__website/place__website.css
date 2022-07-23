@@ -2,6 +2,7 @@
   min-width: 288px;
   width: calc(100% - 2*16px);
   margin: auto auto 0;
+  box-sizing: border-box;
 }
 
 @media screen and (min-width: 768px) {

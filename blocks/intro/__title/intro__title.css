@@ -5,7 +5,7 @@
   margin: 0;
 }
 
-@media  and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .intro__title {
     line-height: 1.07;
   }
